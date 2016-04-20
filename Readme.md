@@ -1,6 +1,6 @@
 # Учебный проект «Барбершоп»
 
-* Студент: [Станислав Милочкин](https://up.htmlacademy.ru/htmlcss/13/user/74197).
+* Студент: [Станислав Милочкин)](https://up.htmlacademy.ru/htmlcss/13/user/74197).
 
 ---
 
