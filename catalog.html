@@ -35,9 +35,9 @@
             </div>
         </header>
         <main class="container">
-            <div class="breadsrumbs">
-                <h1>СРЕДСТВА ДЛЯ УХОДА</h1>
-                <ul>
+            <h1>средства для ухода</h1>
+            <div class="breadсrumbs">
+                <ul class="breadсrumbs-menu">
                     <li>
                         <a href="#">главная</a>
                     </li>
@@ -45,42 +45,115 @@
                         <a href="#">магазин</a>
                     </li>
                     <li>
-                        <a href="#">средства для ухода</a>
+                        <div>средства для ухода</div>
                     </li>
                 </ul>
             </div>
             <div class="index-content">
                 <div class="index-content-left">
-                    <label><h2>производители</h2>:<br>
-                        <input type="radio" name="baxter"> baxter of california </input><br>
-                        <input type="radio" name="mr"> mr natty </input><br>
-                        <input type="radio" name="suavecito"> suavecito</input><br>
-                        <input type="radio" name="malin"> malinn+goetz</input><br>
-                        <input type="radio" name="murray's"> murray's</input><br>
-                        <input type="radio" name="american"> american crew</input><br>
-                    </label>
-                    <label><h2>группы товаров</h2>
-                        <input type="radio" name="razor"> бритвенные принадлежности</input><br>
-                        <input type="radio" name="facilities"> средства для ухода</input><br>
-                        <input type="radio" name="faccessories"> аксесуары</input><br>
-                    <button class="btn" type="show">Показать</button>
+                    <form action="">
+                        <div class="form-group">
+                        <h2>производители:</h2><!-- может поставить перед divом?-->
+                            <input type="checkbox" id="baxter" name="baxter"><label for="baxter">baxter of california</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="checkbox" id="mr" name="mr"><label for="mr"> mr natty</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="checkbox" id="suavecito" name="suavecito"><label for="suavecito"> suavecito</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="checkbox" id="malin" name="malin"><label for="malin"> malinn+goetz</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="checkbox" id="murray's" name="murray's"><label for="murray's"> murray's</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="checkbox" id="american" name="american"><label for="american"> american crew</label>
+                        </div>
+                    </form>
+                    <form action="">
+                        <div class="form-group-product">
+                        <h2>группы товаров</h2><!-- может поставить перед divом?-->
+                            <input type="radio" name="product" value="razor"><label for="razor">бритвенные принадлежности</label><!--т.к. выбирается одна группа товаров-->
+                        </div>
+                        <div class="form-group-product">
+                            <input type="radio" name="product" value="facilities"><label for="facilities"> средства для ухода</label>
+                        </div>
+                        <div class="form-group-product">
+                            <input type="radio" name="product" value="faccessories"><label for="faccessories"> аксесуары</label>
+                        </div>
+                        <button class="btn" type="submit">Показать</button>
+                    </form>
                 </div>
                 <div class="index-content-right">
                     <div class="product">
-                        <img src="img/photo-1.jpg" width="150" height="100" alt="набор для путешествия">
-                        <p>Набор для путешествий<br>BAXTER OF CALIFORNIA</p>
+                        <div class="product-thumb">
+                          <img src="img/photo-1.jpg" width="150" height="100" alt="набор для путешествия">
+                        </div>
+                        <p class="product-title">Набор для путешествий BAXTER OF CALIFORNIA</p>
                         <div class="order">
-                            <p>2 900 руб.</p>
-                            <button class="btn" type="buy">Купить</button>
+                            <p class="product-price">2 900 руб.</p>
+                            <a class="btn btn--primary" href="#">Купить</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product-thumb">
+                          <img src="img/photo-2.jpg" width="150" height="100" alt="увлажняющий кондиционер">
+                        </div>
+                        <p class="product-title">увлажняющий кондиционер BAXTER OF CALIFORNIA</p>
+                        <div class="order">
+                            <p class="product-price">750 руб.</p>
+                            <a class="btn btn--primary" href="#">Купить</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product-thumb">
+                          <img src="img/photo-3.jpg" width="150" height="100" alt="гель для волос">
+                        </div>
+                        <p class="product-title">гель для волос Suavecito</p>
+                        <div class="order">
+                            <p class="product-price">290 руб.</p>
+                            <a class="btn btn--primary" href="#">Купить</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product-thumb">
+                          <img src="img/photo-4.jpg" width="150" height="100" alt="глина для укладки">
+                        </div>
+                        <p class="product-title">глина для укладки волос American crew</p>
+                        <div class="order">
+                            <p class="product-price">500 руб.</p>
+                            <a class="btn btn--primary" href="#">Купить</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product-thumb">
+                          <img src="img/photo-5.jpg" width="150" height="100" alt="гель для волос">
+                        </div>
+                        <p class="product-title">гель для волос American crew</p>
+                        <div class="order">
+                            <p class="product-price">300 руб.</p>
+                            <a class="btn btn--primary" href="#">Купить</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product-thumb">
+                          <img src="img/photo-6.jpg" width="150" height="100" alt="набор для бритья">
+                        </div>
+                        <p class="product-title">набор для бритья BAXTER OF CALIFORNIA</p>
+                        <div class="order">
+                            <p class="product-price">3 900 руб.</p>
+                            <a class="btn btn--primary" href="#">Купить</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="footer">
-                <button class="btn" type="1">1</button>
-                <button class="btn" type="2">2</button>
-                <button class="btn" type="3">3</button>
-                <button class="btn" type="4">4</button>
+            <div class="numbering">
+                <p class="btn btn-numbering">1</p><!--класс оставил для создание кнопки для css.или так не правильно?-->
+                <a class="btn btn-numbering" href="#">2</a>
+                <a class="btn btn-numbering" href="#">3</a>
+                <a class="btn btn-numbering" href="#">4</a>
             </div>
         </main>
         <footer class="main-footer">
