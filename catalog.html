@@ -52,8 +52,8 @@
             <div class="index-content">
                 <div class="index-content-left">
                     <form action="">
+                        <h2>производители:</h2>
                         <div class="form-group">
-                        <h2>производители:</h2><!-- может поставить перед divом?-->
                             <input type="checkbox" id="baxter" name="baxter"><label for="baxter">baxter of california</label>
                         </div>
                         <div class="form-group">
@@ -71,11 +71,9 @@
                         <div class="form-group">
                             <input type="checkbox" id="american" name="american"><label for="american"> american crew</label>
                         </div>
-                    </form>
-                    <form action="">
+                        <h2>группы товаров</h2>
                         <div class="form-group-product">
-                        <h2>группы товаров</h2><!-- может поставить перед divом?-->
-                            <input type="radio" name="product" value="razor"><label for="razor">бритвенные принадлежности</label><!--т.к. выбирается одна группа товаров-->
+                            <input type="radio" name="product" value="razor"><label for="razor">бритвенные принадлежности</label>
                         </div>
                         <div class="form-group-product">
                             <input type="radio" name="product" value="facilities"><label for="facilities"> средства для ухода</label>
@@ -89,71 +87,81 @@
                 <div class="index-content-right">
                     <div class="product">
                         <div class="product-thumb">
-                          <img src="img/photo-1.jpg" width="150" height="100" alt="набор для путешествия">
+                            <a href="#"><img src="img/photo-1.jpg" width="150" height="100" alt="набор для путешествия"></a>
                         </div>
-                        <p class="product-title">Набор для путешествий BAXTER OF CALIFORNIA</p>
+                        <span class="product-title">Набор для путешествий BAXTER OF CALIFORNIA</span>
                         <div class="order">
-                            <p class="product-price">2 900 руб.</p>
+                            <span class="product-price">2 900 руб.</span>
                             <a class="btn btn--primary" href="#">Купить</a>
                         </div>
                     </div>
                     <div class="product">
                         <div class="product-thumb">
-                          <img src="img/photo-2.jpg" width="150" height="100" alt="увлажняющий кондиционер">
+                            <a href="#"><img src="img/photo-2.jpg" width="150" height="100" alt="увлажняющий кондиционер"></a>
                         </div>
-                        <p class="product-title">увлажняющий кондиционер BAXTER OF CALIFORNIA</p>
+                        <span class="product-title">увлажняющий кондиционер BAXTER OF CALIFORNIA</span>
                         <div class="order">
-                            <p class="product-price">750 руб.</p>
+                            <span class="product-price">750 руб.</span>
                             <a class="btn btn--primary" href="#">Купить</a>
                         </div>
                     </div>
                     <div class="product">
                         <div class="product-thumb">
-                          <img src="img/photo-3.jpg" width="150" height="100" alt="гель для волос">
+                            <a href="#"><img src="img/photo-3.jpg" width="150" height="100" alt="гель для волос"></a>
                         </div>
-                        <p class="product-title">гель для волос Suavecito</p>
+                        <span class="product-title">гель для волос Suavecito</span>
                         <div class="order">
-                            <p class="product-price">290 руб.</p>
+                            <span class="product-price">290 руб.</span>
                             <a class="btn btn--primary" href="#">Купить</a>
                         </div>
                     </div>
                     <div class="product">
                         <div class="product-thumb">
-                          <img src="img/photo-4.jpg" width="150" height="100" alt="глина для укладки">
+                            <a href="#"><img src="img/photo-4.jpg" width="150" height="100" alt="глина для укладки"></a>
                         </div>
-                        <p class="product-title">глина для укладки волос American crew</p>
+                        <span class="product-title">глина для укладки волос American crew</span>
                         <div class="order">
-                            <p class="product-price">500 руб.</p>
+                            <span class="product-price">500 руб.</span>
                             <a class="btn btn--primary" href="#">Купить</a>
                         </div>
                     </div>
                     <div class="product">
                         <div class="product-thumb">
-                          <img src="img/photo-5.jpg" width="150" height="100" alt="гель для волос">
+                            <a href="#"><img src="img/photo-5.jpg" width="150" height="100" alt="гель для волос"></a>
                         </div>
-                        <p class="product-title">гель для волос American crew</p>
+                        <span class="product-title">гель для волос American crew</span>
                         <div class="order">
-                            <p class="product-price">300 руб.</p>
+                            <span class="product-price">300 руб.</span>
                             <a class="btn btn--primary" href="#">Купить</a>
                         </div>
                     </div>
                     <div class="product">
                         <div class="product-thumb">
-                          <img src="img/photo-6.jpg" width="150" height="100" alt="набор для бритья">
+                            <a hraf="#"><img src="img/photo-6.jpg" width="150" height="100" alt="набор для бритья"></a>
                         </div>
-                        <p class="product-title">набор для бритья BAXTER OF CALIFORNIA</p>
+                        <span class="product-title">набор для бритья BAXTER OF CALIFORNIA</span>
                         <div class="order">
-                            <p class="product-price">3 900 руб.</p>
+                            <span class="product-price">3 900 руб.</span>
                             <a class="btn btn--primary" href="#">Купить</a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="numbering">
-                <p class="btn btn-numbering">1</p><!--класс оставил для создание кнопки для css.или так не правильно?-->
-                <a class="btn btn-numbering" href="#">2</a>
-                <a class="btn btn-numbering" href="#">3</a>
-                <a class="btn btn-numbering" href="#">4</a>
+                <ul class="pagination">
+                    <li>
+                        <a href="#">1</a>
+                    </li>
+                    <li>
+                        <a href="#">2</a>
+                    </li>
+                    <li>
+                        <a href="#">3</a>
+                    </li>
+                    <li>
+                        <a href="#">4</a>
+                    </li>
+                </ul>
             </div>
         </main>
         <footer class="main-footer">
@@ -167,13 +175,13 @@
                     </p>
                 </section>
                 <section class="footer-social">
-                    <p>Давайте дружить</p>
+                    <span>Давайте дружить</span>
                     <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
                     <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
                     <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
                 </section>
                 <section class="footer-copyright">
-                    <p>Разработано:</p>
+                    <span>Разработано:</span>
                     <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
                 </section>
             </div>
